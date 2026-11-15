@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en" data-static="1">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Forever Physical DPS BiS</title>
+	<link rel="stylesheet" href="style.css">
+	<script>const whTooltips = { colorLinks: true, iconizeLinks: false, renameLinks: false };</script>
+	<script src="https://wow.zamimg.com/js/tooltips.js" async></script>
+</head>
+<body>
+	<header class="top">
+		<div class="brand">
+			<h1>Forever Physical DPS BiS</h1>
+			<span class="sub">Pre-raid best in slot · WoW Forever · Alliance physical DPS</span>
+		</div>
+		<div class="status" id="status"></div>
+	</header>
+	<section id="job" class="job hidden"></section>
+	<nav class="spec-tabs" id="specTabs"></nav>
+	<div class="toolbar" id="toolbar"></div>
+	<nav class="scenario-tabs" id="scenarioTabs"></nav>
+	<main id="main"><p class="empty">Loading…</p></main>
+	<footer>
+		Simulation engine: <a href="https://github.com/wowsims/forever" target="_blank" rel="noopener">wowsims/forever</a> (MIT).
+		Item data: the wowsims database, ForeverItemFinder and wowtbc.gg (<a href="unverified.html">unverified items</a>). Popularity: Battle.net profile API.
+	</footer>
+	<script type="module" src="app.js"></script>
+</body>
+</html>

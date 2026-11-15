@@ -1,0 +1,481 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unverified Items</title>
+<style>
+:root { --bg:#0f1115; --panel:#171a21; --line:#2a2f3a; --text:#e6e8ec; --muted:#9aa3b2; --good:#4cc38a; --q3:#0070dd; --q4:#a335ee; }
+body { margin:0; background:var(--bg); color:var(--text); font:14px/1.45 system-ui, Segoe UI, sans-serif; }
+main { padding:16px 24px 40px; max-width:1400px; }
+a { color:#6aa9ff; } .q3 { color:var(--q3); } .q4 { color:var(--q4); } .muted { color:var(--muted); font-size:12px; } .good { color:var(--good); }
+table { width:100%; border-collapse:collapse; font-size:13px; } th, td { text-align:left; padding:6px 8px; border-top:1px solid var(--line); vertical-align:top; }
+th { color:var(--muted); font-weight:600; position:sticky; top:0; background:var(--bg); } tr.other td { opacity:.7; }
+.box { background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:10px 14px; margin-bottom:14px; }
+ul { margin:6px 0; padding-left:18px; } code { background:#222733; padding:1px 4px; border-radius:4px; }
+@media (max-width:700px) { main { padding:12px 16px; } table { font-size:12px; } }
+</style></head><body><main>
+<h1>Unverified items</h1>
+<p><a href="/">← Back to BiS</a></p>
+<div class="box">
+<p>91 Forever items (blue or epic gear) that no source database places. They are simmed and shown greyed on the BiS page, but never used for BiS, because some may be unreleased or raid loot.</p>
+<p><b>Checked for every item</b>:</p><ul><li>ForeverItemFinder (Questie Forever + CMaNGOS sources): no source</li><li>wowtbc.gg Forever loot tables (every dungeon, raid tables empty): not listed</li><li>foreverdb.net: in the Forever client, no source recorded (spot check of 6)</li><li>Worn by scanned level 60 tanks (both factions, 93 tanks): see the Worn column</li></ul>
+<p><b>Searched by name</b>: Exact-name web search for all 91 items (2026-11-14). Checked 2026-11-14.</p>
+<p><b>Everloot</b> (player loot records, a fact counts once three installs report it) is queried at its keyless limit of 30 lookups an hour.</p>
+<p>An item becomes usable on its own once scanned players wear it or a source database lists it. To confirm one by hand, add <code>"id": "where it comes from"</code> to <code>include</code> in <code>config/item-overrides.json</code>.</p>
+</div>
+<table><thead><tr><th>Item</th><th>Type</th><th>ilvl</th><th>Paladin</th><th>Worn</th><th>Everloot</th><th>Web search</th><th>Verdict</th></tr></thead>
+<tbody><tr class="">
+		<td><a class="q4" href="https://www.wowhead.com/forever/item=284716" target="_blank" rel="noopener">Band of the Better Half</a><div class="muted">284716</div></td>
+		<td>finger</td><td>70</td><td>yes</td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td>Second ring of the hidden 'Partners in Crime' set; its partner First Mate Band drops from Mr. Smite (Deadmines). No public source for this ring yet (boost sellers say its source is unconfirmed). Item level 70 epic. <a href="https://warcraft.wiki.gg/wiki/First_Mate_Band" target="_blank" rel="noopener">[1]</a> <a href="https://mobalytics.gg/wow-forever/guides/biggest-secrets-wow-forever-players-have-discovered" target="_blank" rel="noopener">[2]</a></td>
+		<td>unverified</td></tr><tr class="">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=284079" target="_blank" rel="noopener">High Clerist's Seal</a><div class="muted">284079</div></td>
+		<td>finger</td><td>65</td><td>yes</td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=284091" target="_blank" rel="noopener">Scarlet Forgemaster's Bindings</a><div class="muted">284091</div></td>
+		<td>plate wrist</td><td>64</td><td>yes</td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=280009" target="_blank" rel="noopener">Titanosaur Scale Pendant</a><div class="muted">280009</div></td>
+		<td>neck</td><td>63</td><td>yes</td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=280027" target="_blank" rel="noopener">Crownroar Chestplate</a><div class="muted">280027</div></td>
+		<td>plate chest</td><td>63</td><td>yes</td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=280032" target="_blank" rel="noopener">Bolt's Charged Eyeball</a><div class="muted">280032</div></td>
+		<td>trinket</td><td>63</td><td>yes</td>
+		<td><b class="good">1</b></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td><b class="good">evidence found</b></td></tr><tr class="">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=284231" target="_blank" rel="noopener">Sayaad Charm</a><div class="muted">284231</div></td>
+		<td>trinket</td><td>63</td><td>yes</td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="">
+		<td><a class="q4" href="https://www.wowhead.com/forever/item=268873" target="_blank" rel="noopener">Defender of the Barkskin</a><div class="muted">268873</div></td>
+		<td>trinket</td><td>62</td><td>yes</td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=284253" target="_blank" rel="noopener">Eternally Frozen Band</a><div class="muted">284253</div></td>
+		<td>finger</td><td>62</td><td>yes</td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=275711" target="_blank" rel="noopener">Chimaera Wing Cape</a><div class="muted">275711</div></td>
+		<td>cloth back</td><td>61</td><td>yes</td>
+		<td><b class="good">2</b></td>
+		<td><span class="muted">no player sightings</span></td><td>Appears only on stat-ranked tier lists (RankedBoost), no source. <a href="https://rankedboost.com/world-of-warcraft/forever/tier-list/best-cloak-priest/" target="_blank" rel="noopener">[1]</a></td>
+		<td><b class="good">evidence found</b></td></tr><tr class="">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=275738" target="_blank" rel="noopener">Jereman's Bauble</a><div class="muted">275738</div></td>
+		<td>finger</td><td>61</td><td>yes</td>
+		<td><b class="good">1</b></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td><b class="good">evidence found</b></td></tr><tr class="">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=275740" target="_blank" rel="noopener">Ring of Nature's Cycles</a><div class="muted">275740</div></td>
+		<td>finger</td><td>61</td><td>yes</td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=276072" target="_blank" rel="noopener">Soulwoven Drape</a><div class="muted">276072</div></td>
+		<td>cloth back</td><td>61</td><td>yes</td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=276073" target="_blank" rel="noopener">Band of the Damned</a><div class="muted">276073</div></td>
+		<td>finger</td><td>61</td><td>yes</td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=286590" target="_blank" rel="noopener">Silithid Queen's Husk</a><div class="muted">286590</div></td>
+		<td>plate chest</td><td>61</td><td>yes</td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=287045" target="_blank" rel="noopener">Ancient Mattock</a><div class="muted">287045</div></td>
+		<td>one-hand</td><td>61</td><td>yes</td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=276404" target="_blank" rel="noopener">Masterwork Crimson Hammer</a><div class="muted">276404</div></td>
+		<td>one-hand</td><td>60</td><td>yes</td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=277559" target="_blank" rel="noopener">Shen'dralar Relic</a><div class="muted">277559</div></td>
+		<td>trinket</td><td>60</td><td>yes</td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=281586" target="_blank" rel="noopener">Elderwild Construction Hammer</a><div class="muted">281586</div></td>
+		<td>one-hand</td><td>60</td><td>yes</td>
+		<td><b class="good">2</b></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td><b class="good">evidence found</b></td></tr><tr class="">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=281587" target="_blank" rel="noopener">Greatflank Flayer</a><div class="muted">281587</div></td>
+		<td>one-hand</td><td>60</td><td>yes</td>
+		<td><b class="good">2</b></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td><b class="good">evidence found</b></td></tr><tr class="">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=284097" target="_blank" rel="noopener">Everstaring Abomination Eye</a><div class="muted">284097</div></td>
+		<td>neck</td><td>60</td><td>yes</td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=287043" target="_blank" rel="noopener">Predaceous Band</a><div class="muted">287043</div></td>
+		<td>finger</td><td>60</td><td>yes</td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=287035" target="_blank" rel="noopener">Demon Worshipper's Necklace</a><div class="muted">287035</div></td>
+		<td>neck</td><td>59</td><td>yes</td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=270126" target="_blank" rel="noopener">Conqueror's Pendant</a><div class="muted">270126</div></td>
+		<td>neck</td><td>58</td><td>yes</td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=274418" target="_blank" rel="noopener">Burrow Barricade</a><div class="muted">274418</div></td>
+		<td>shield</td><td>58</td><td>yes</td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td>Appears only on a stat-ranked tier list (RankedBoost), no source. <a href="https://rankedboost.com/world-of-warcraft/forever/tier-list/best-off-hand-warrior/" target="_blank" rel="noopener">[1]</a></td>
+		<td>unverified</td></tr><tr class="">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=277202" target="_blank" rel="noopener">Artifact Seeker's Pendant</a><div class="muted">277202</div></td>
+		<td>neck</td><td>58</td><td>yes</td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td>Appears only on a stat-ranked tier list (RankedBoost), no source. <a href="https://rankedboost.com/world-of-warcraft/forever/tier-list/best-neck-hunter/" target="_blank" rel="noopener">[1]</a></td>
+		<td>unverified</td></tr><tr class="">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=281636" target="_blank" rel="noopener">Museum Keeper's Chain</a><div class="muted">281636</div></td>
+		<td>neck</td><td>58</td><td>yes</td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td>Appears only on stat-ranked tier lists (RankedBoost), no source. <a href="https://rankedboost.com/world-of-warcraft/forever/tier-list/best-neck-warlock/" target="_blank" rel="noopener">[1]</a></td>
+		<td>unverified</td></tr><tr class="">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=281637" target="_blank" rel="noopener">Antique Bulwark</a><div class="muted">281637</div></td>
+		<td>shield</td><td>58</td><td>yes</td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td>In Forever (Metaforge: new in Forever, stats changed in the 1 Oct 2026 build, +8 Defense). Source not published; RankedBoost rates it on stats only. <a href="https://metaforge.app/wow-forever/database/armor/antique-bulwark" target="_blank" rel="noopener">[1]</a> <a href="https://rankedboost.com/world-of-warcraft/forever/tier-list/best-off-hand-warrior/" target="_blank" rel="noopener">[2]</a></td>
+		<td>unverified</td></tr><tr class="">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=287033" target="_blank" rel="noopener">Furbolg Berserker's Boots</a><div class="muted">287033</div></td>
+		<td>plate feet</td><td>58</td><td>yes</td>
+		<td><b class="good">2</b></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td><b class="good">evidence found</b></td></tr><tr class="">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=287032" target="_blank" rel="noopener">Den Champion's Binding</a><div class="muted">287032</div></td>
+		<td>plate waist</td><td>57</td><td>yes</td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=260184" target="_blank" rel="noopener">Cliff Walker's Cinch</a><div class="muted">260184</div></td>
+		<td>plate waist</td><td>55</td><td>yes</td>
+		<td><b class="good">1</b></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td><b class="good">evidence found</b></td></tr><tr class="">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=286556" target="_blank" rel="noopener">Winds of Tanaris</a><div class="muted">286556</div></td>
+		<td>trinket</td><td>53</td><td>yes</td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td>Metaforge lists it as a new Forever trinket; no source.</td>
+		<td>unverified</td></tr><tr class="">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=287023" target="_blank" rel="noopener">Iron-Wrought Cuffs</a><div class="muted">287023</div></td>
+		<td>plate wrist</td><td>53</td><td>yes</td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=281628" target="_blank" rel="noopener">Blade of Bandarion</a><div class="muted">281628</div></td>
+		<td>one-hand</td><td>52</td><td>yes</td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=284282" target="_blank" rel="noopener">Queen Guard's Royal Seal</a><div class="muted">284282</div></td>
+		<td>finger</td><td>50</td><td>yes</td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=275043" target="_blank" rel="noopener">Bloodmaster's Ring</a><div class="muted">275043</div></td>
+		<td>finger</td><td>45</td><td>yes</td>
+		<td><b class="good">1</b></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td><b class="good">evidence found</b></td></tr><tr class="">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=275044" target="_blank" rel="noopener">Bloodsport Band</a><div class="muted">275044</div></td>
+		<td>finger</td><td>45</td><td>yes</td>
+		<td><b class="good">3</b></td>
+		<td><span class="muted">no player sightings</span></td><td>Metaforge lists it, no stats or source. <a href="https://metaforge.app/wow-forever/database/armor/bloodsport-band" target="_blank" rel="noopener">[1]</a></td>
+		<td><b class="good">evidence found</b></td></tr><tr class="">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=275045" target="_blank" rel="noopener">Ogre Horn Ring</a><div class="muted">275045</div></td>
+		<td>finger</td><td>45</td><td>yes</td>
+		<td><b class="good">1</b></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td><b class="good">evidence found</b></td></tr><tr class="">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=277236" target="_blank" rel="noopener">Pauldrons of Vindication</a><div class="muted">277236</div></td>
+		<td>plate shoulder</td><td>45</td><td>yes</td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=277243" target="_blank" rel="noopener">Silverbane Slicer</a><div class="muted">277243</div></td>
+		<td>one-hand</td><td>45</td><td>yes</td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=277245" target="_blank" rel="noopener">Swampspine Crusher</a><div class="muted">277245</div></td>
+		<td>one-hand</td><td>45</td><td>yes</td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="other">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=278570" target="_blank" rel="noopener">Mardenholde Armbands</a><div class="muted">278570</div></td>
+		<td>cloth wrist</td><td>63</td><td></td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="other">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=280011" target="_blank" rel="noopener">Deeproar Cord</a><div class="muted">280011</div></td>
+		<td>cloth waist</td><td>63</td><td></td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="other">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=280013" target="_blank" rel="noopener">Frostfang Mail Vest</a><div class="muted">280013</div></td>
+		<td>mail chest</td><td>63</td><td></td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="other">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=280016" target="_blank" rel="noopener">Spiderchitin Wrap</a><div class="muted">280016</div></td>
+		<td>leather chest</td><td>63</td><td></td>
+		<td><b class="good">1</b></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td><b class="good">evidence found</b></td></tr><tr class="other">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=280017" target="_blank" rel="noopener">Octoclaw Chain Boots</a><div class="muted">280017</div></td>
+		<td>mail feet</td><td>63</td><td></td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="other">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=280018" target="_blank" rel="noopener">Hammer of Thundering Hooves</a><div class="muted">280018</div></td>
+		<td>two-hand</td><td>63</td><td></td>
+		<td><b class="good">1</b></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td><b class="good">evidence found</b></td></tr><tr class="other">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=280019" target="_blank" rel="noopener">Dinofrill Casque</a><div class="muted">280019</div></td>
+		<td>mail head</td><td>63</td><td></td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="other">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=280021" target="_blank" rel="noopener">Tooth of the Matriarch</a><div class="muted">280021</div></td>
+		<td>one-hand</td><td>63</td><td></td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="other">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=280023" target="_blank" rel="noopener">Nanaya's Control Spire</a><div class="muted">280023</div></td>
+		<td>two-hand</td><td>63</td><td></td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="other">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=280025" target="_blank" rel="noopener">Leggings of Curation</a><div class="muted">280025</div></td>
+		<td>cloth legs</td><td>63</td><td></td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="other">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=280026" target="_blank" rel="noopener">Albinofur Grips</a><div class="muted">280026</div></td>
+		<td>mail hands</td><td>63</td><td></td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="other">
+		<td><a class="q4" href="https://www.wowhead.com/forever/item=284587" target="_blank" rel="noopener">Ankle Slicers</a><div class="muted">284587</div></td>
+		<td>ranged</td><td>63</td><td></td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td>A boost seller (Conquest Capped) describes it as a world drop from Forever's re-itemisation: marketing, not confirmed. <a href="https://conquestcapped.com/wow-forever/service/wow-forever-ankle-slicers/" target="_blank" rel="noopener">[1]</a></td>
+		<td>unverified</td></tr><tr class="other">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=279931" target="_blank" rel="noopener">Lost Researcher's Hood</a><div class="muted">279931</div></td>
+		<td>cloth head</td><td>62</td><td></td>
+		<td><b class="good">1</b></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td><b class="good">evidence found</b></td></tr><tr class="other">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=279932" target="_blank" rel="noopener">Slime-Resistant Shroud</a><div class="muted">279932</div></td>
+		<td>cloth head</td><td>62</td><td></td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="other">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=284086" target="_blank" rel="noopener">Scarlet Executioner's Guise</a><div class="muted">284086</div></td>
+		<td>leather head</td><td>62</td><td></td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="other">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=286613" target="_blank" rel="noopener">King Mosh's Tooth</a><div class="muted">286613</div></td>
+		<td>one-hand</td><td>62</td><td></td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="other">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=275708" target="_blank" rel="noopener">Ghansurok Hide Tunic</a><div class="muted">275708</div></td>
+		<td>leather chest</td><td>61</td><td></td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="other">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=275737" target="_blank" rel="noopener">Hermit's Pauldron</a><div class="muted">275737</div></td>
+		<td>mail shoulder</td><td>61</td><td></td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="other">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=275739" target="_blank" rel="noopener">Wild Wristguards</a><div class="muted">275739</div></td>
+		<td>leather wrist</td><td>61</td><td></td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td>Appears only on a stat-ranked tier list (RankedBoost), no source. <a href="https://rankedboost.com/world-of-warcraft/forever/tier-list/best-bracers-druid/caster/" target="_blank" rel="noopener">[1]</a></td>
+		<td>unverified</td></tr><tr class="other">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=275741" target="_blank" rel="noopener">Ketharas' Linked Belt</a><div class="muted">275741</div></td>
+		<td>mail waist</td><td>61</td><td></td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="other">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=287040" target="_blank" rel="noopener">Dinosaur Hide Belt</a><div class="muted">287040</div></td>
+		<td>leather waist</td><td>61</td><td></td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="other">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=287046" target="_blank" rel="noopener">Pylon Poker</a><div class="muted">287046</div></td>
+		<td>two-hand</td><td>61</td><td></td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="other">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=276434" target="_blank" rel="noopener">Black Guard Skullcap</a><div class="muted">276434</div></td>
+		<td>mail head</td><td>60</td><td></td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="other">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=276455" target="_blank" rel="noopener">Swordsmith Mitts</a><div class="muted">276455</div></td>
+		<td>leather hands</td><td>60</td><td></td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="other">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=287041" target="_blank" rel="noopener">Time-Forgotten Bindings</a><div class="muted">287041</div></td>
+		<td>mail wrist</td><td>60</td><td></td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="other">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=287030" target="_blank" rel="noopener">Blackmaw Bindings</a><div class="muted">287030</div></td>
+		<td>mail wrist</td><td>59</td><td></td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="other">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=287038" target="_blank" rel="noopener">Naturopathy Footpads</a><div class="muted">287038</div></td>
+		<td>cloth feet</td><td>59</td><td></td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="other">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=274417" target="_blank" rel="noopener">Barkskin Baubles</a><div class="muted">274417</div></td>
+		<td>one-hand</td><td>58</td><td></td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="other">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=274420" target="_blank" rel="noopener">Wisepaw Totem</a><div class="muted">274420</div></td>
+		<td>two-hand</td><td>58</td><td></td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="other">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=287028" target="_blank" rel="noopener">Tormented Cuffs</a><div class="muted">287028</div></td>
+		<td>cloth wrist</td><td>58</td><td></td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="other">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=270125" target="_blank" rel="noopener">Satyrhide Armbands</a><div class="muted">270125</div></td>
+		<td>mail wrist</td><td>57</td><td></td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="other">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=277117" target="_blank" rel="noopener">Savage Gladiator Shoulders</a><div class="muted">277117</div></td>
+		<td>mail shoulder</td><td>57</td><td></td>
+		<td><b class="good">1</b></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td><b class="good">evidence found</b></td></tr><tr class="other">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=280077" target="_blank" rel="noopener">Fist of Revelation</a><div class="muted">280077</div></td>
+		<td>one-hand</td><td>57</td><td></td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="other">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=280081" target="_blank" rel="noopener">Sad-Sack Sandals</a><div class="muted">280081</div></td>
+		<td>cloth feet</td><td>57</td><td></td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="other">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=280082" target="_blank" rel="noopener">Staff of Sorrow</a><div class="muted">280082</div></td>
+		<td>two-hand</td><td>57</td><td></td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="other">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=280083" target="_blank" rel="noopener">Truesight Rifle</a><div class="muted">280083</div></td>
+		<td>ranged</td><td>57</td><td></td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="other">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=287029" target="_blank" rel="noopener">Nature Guardian's Legguards</a><div class="muted">287029</div></td>
+		<td>leather legs</td><td>57</td><td></td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="other">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=260211" target="_blank" rel="noopener">Panic Hands</a><div class="muted">260211</div></td>
+		<td>leather hands</td><td>56</td><td></td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td>Metaforge lists it (new in Forever, bind on pickup); no source. <a href="https://metaforge.app/wow-forever/database/armor/panic-hands" target="_blank" rel="noopener">[1]</a></td>
+		<td>unverified</td></tr><tr class="other">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=260212" target="_blank" rel="noopener">Bad Hat</a><div class="muted">260212</div></td>
+		<td>cloth head</td><td>56</td><td></td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="other">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=260183" target="_blank" rel="noopener">Sacred Bangle</a><div class="muted">260183</div></td>
+		<td>leather wrist</td><td>55</td><td></td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td>Metaforge lists it (new in Forever, bind on pickup); no source. <a href="https://metaforge.app/wow-forever/database/armor/sacred-bangle" target="_blank" rel="noopener">[1]</a></td>
+		<td>unverified</td></tr><tr class="other">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=260185" target="_blank" rel="noopener">Hippogryph Hide Boots</a><div class="muted">260185</div></td>
+		<td>mail feet</td><td>55</td><td></td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="other">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=270117" target="_blank" rel="noopener">Shapeshifter's Helm</a><div class="muted">270117</div></td>
+		<td>leather head</td><td>54</td><td></td>
+		<td><b class="good">1</b></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td><b class="good">evidence found</b></td></tr><tr class="other">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=287017" target="_blank" rel="noopener">Chaplain's Mitre</a><div class="muted">287017</div></td>
+		<td>cloth head</td><td>53</td><td></td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="other">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=287022" target="_blank" rel="noopener">Spaulders of Containment</a><div class="muted">287022</div></td>
+		<td>mail shoulder</td><td>52</td><td></td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="other">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=282007" target="_blank" rel="noopener">Emerald Watcher's Dreamstaff</a><div class="muted">282007</div></td>
+		<td>two-hand</td><td>49</td><td></td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="other">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=286552" target="_blank" rel="noopener">Sandcaster's Mantle</a><div class="muted">286552</div></td>
+		<td>cloth shoulder</td><td>48</td><td></td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="other">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=277244" target="_blank" rel="noopener">Guardian's Maulers</a><div class="muted">277244</div></td>
+		<td>one-hand</td><td>45</td><td></td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="other">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=277248" target="_blank" rel="noopener">Notched Ritual Rib</a><div class="muted">277248</div></td>
+		<td>one-hand</td><td>45</td><td></td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="other">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=277250" target="_blank" rel="noopener">The Skullcracker</a><div class="muted">277250</div></td>
+		<td>two-hand</td><td>45</td><td></td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr><tr class="other">
+		<td><a class="q3" href="https://www.wowhead.com/forever/item=277259" target="_blank" rel="noopener">Fermented Restoration Potion</a><div class="muted">277259</div></td>
+		<td>one-hand</td><td>45</td><td></td>
+		<td><span class="muted">0</span></td>
+		<td><span class="muted">no player sightings</span></td><td><span class="muted">No result names this item</span></td>
+		<td>unverified</td></tr></tbody></table>
+</main></body></html>
